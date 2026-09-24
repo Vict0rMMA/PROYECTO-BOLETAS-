@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "evento": "Festival Día de Rock",
+    "asiento": "A12",
+    "precio": 160000,
+    "vendida": false,
+    "imagen_path": "assets/images/rock.jpg",
+    "synopsis": "Festival Día de Rock en Medellín, en el Hangar Park del Aeroparque Juan Pablo II. Crazy Town y Panteón Rococó encabezan un cartel que reúne varios subgéneros del rock en un solo escenario."
+  },
+  {
+    "id": 2,
+    "evento": "Arcángel 20 Aniversario",
+    "asiento": "A19",
+    "precio": 800000,
+    "vendida": true,
+    "imagen_path": "assets/images/arcangel.jpg",
+    "synopsis": "Arcángel celebra sus 20 años de carrera en el Estadio Atanasio Girardot de Medellín, repasando en vivo los temas que marcaron dos décadas del género urbano."
+  },
+  {
+    "id": 3,
+    "evento": "Festival Electrónico",
+    "asiento": "B04",
+    "precio": 250000,
+    "vendida": false,
+    "imagen_path": "assets/images/electronica.jpg",
+    "synopsis": "Festival Electrónico en la UVA de la Armonía, Manrique. Una tarde de techno con DJs locales como Fumaratto y Zandu: buena energía y comunidad al aire libre."
+  },
+  {
+    "id": 4,
+    "evento": "Pasabordo en Concierto",
+    "asiento": "C07",
+    "precio": 120000,
+    "vendida": false,
+    "imagen_path": "assets/images/pasabordo.jpg",
+    "synopsis": "Pasabordo llega al Teatro Metropolitano de Medellín con un formato íntimo: la banda repasa sus baladas más conocidas acompañada de cuerdas en vivo."
+  }
+]

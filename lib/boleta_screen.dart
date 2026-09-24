@@ -24,7 +24,9 @@ class _BoletaScreenState extends State<BoletaScreen> {
 
     // En la version final cargamos automaticamente
     // cuando nace la pantalla.
-    _service = BoletaService('https://dummyjson.com/c/0b9c-4d7a-4abe-8f07');
+    // URL relativa: se resuelve contra el mismo origen de la app,
+    // asi no depende del puerto ni la bloquea el CORS del navegador.
+    _service = BoletaService('boletas.json');
     _futureBoletas = _service.getBoletas();
     loadFavorite();
   }

@@ -97,7 +97,7 @@ class BoletaDetailPage extends StatelessWidget {
                         side: BorderSide.none,
                         backgroundColor: colors.surfaceContainerHighest,
                       ),
-                    ],
+                    ], 
                   ),
 
                   const SizedBox(height: 24),
